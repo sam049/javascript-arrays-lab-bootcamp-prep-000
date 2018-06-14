@@ -24,3 +24,8 @@ function appendKitten(name) {
   return newArr
 }
 
+fucntion prependKitten(name) {
+  var newArr = kittens.slice()
+  newArr.unshift(name)
+  return newArr
+}
