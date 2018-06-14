@@ -29,3 +29,5 @@ function prependKitten(name) {
   newArr.unshift(name)
   return newArr
 }
+
+function removeLastKitten()
